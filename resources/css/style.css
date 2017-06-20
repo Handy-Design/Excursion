@@ -1,20 +1,31 @@
 html{
   background-color: black;
+  color: white;
+  font-family: Verdana, serif;
+  font-size: 16px;
   text-align: center;
 }
 
+a, a:visited{
+     color: Aquamarine;
+}
+
 h1{
-  font-family: Verdana, serif;
   font-weight: bold;
   font-size: 50px;
-  color: white;
 }
 
-h3{
-  color: Aquamarine;
-  font-size: 16px;
+h2{
+  font-size: 42px;
+  font-weight: 300;
 }
 
-small{
+p{
+  font-size: 21px;
+  color: Gray;
+}
+
+#footer p{
+  text-align: right;
   color: Gray;
 }
